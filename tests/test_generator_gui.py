@@ -29,6 +29,8 @@ def test_gui_selection_defaults_and_settings(tmp_path):
     assert window.config().classifier == "rocking"
     assert not hasattr(window, "columns")
     assert not hasattr(window, "per_sheet")
+    assert not hasattr(window, "use_pose_list")
+    assert not hasattr(window, "frequency_numbering")
     assert window.table.item(0, 0).checkState() == Qt.CheckState.Checked
     assert window.table.item(1, 0).checkState() == Qt.CheckState.Checked
     window.ranking.setCurrentIndex(window.ranking.findData("crsa"))

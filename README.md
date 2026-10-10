@@ -58,6 +58,11 @@ outputs unchanged. The two sheet modes are written to separate folders. CAD
 status remains provisional unless explicitly confirmed. YAML-only selection
 produces no images or other formats.
 
+Observed simulator poses have a separate GUI in
+[BiBaZu_StableComponentenRoadmaps](https://github.com/match-BiBaZu/BiBaZu_StableComponentenRoadmaps).
+Use it for frequency thresholds, frequency numbering and roadmaps based directly
+on `poses.json` / `pose_registry.json`. This GUI remains focused on STL generation.
+
 CSA and CRSA are now available as **experimental two-plane adaptations**, separate
 from CWSA. See [the equations, assumptions and limitations](docs/CSA_CRSA.md).
 They are not calibrated drop probabilities; unsupported contacts display N/A.
