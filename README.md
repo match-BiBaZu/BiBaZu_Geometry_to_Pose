@@ -1,4 +1,8 @@
-# BiBaZu geometry-to-pose planner
+# BiBaZu Geometry to Pose
+
+This repository provides the legacy analytical alternative for finding stable
+workpiece poses and assessing pose incidence. The method is quasi-static and
+has limited accuracy on a moving conveyor belt.
 
 This repository generates physically admissible chute poses, stability-ranked
 pose sheets, and reorientation roadmaps directly from solid STL geometry. STEP
